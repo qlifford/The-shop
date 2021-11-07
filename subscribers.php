@@ -11,7 +11,7 @@
 <body>
 <h1 class="text-center text-info">THE SHOP Subsribers</h1>
 <table class="table table-borderless text-success text-center text-center table-dark">
-    <tr>
+    <tr class="table table-bordered tab-content">
         <th class="text-info">NAME</th>
         <th class="text-info">EMAIL</th>
         <th class="text-danger">DELETE</th>
