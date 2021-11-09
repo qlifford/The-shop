@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect("localhost","root","","THE SHOP");
+$connection = mysqli_connect("localhost","root","","my_shop");
 if (!isset($connection)){
-    die("connection failed!!!");
+    die("connection failed!");
 }

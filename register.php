@@ -10,8 +10,8 @@
 
 </head>
 <body class=>
-<h1 class="text-center text-success">Welcome to THE SHOP</h1>
-<p class="text-center text-info">Please register here</p>
+<h1 class="text-center text-success">Welcome to My shop</h1>
+<p class="text-center text-info">Please register here.</p>
 <div class="col-4"></div>
 <div class="col-4">
     <form method="post" action="register_handler.php" class="was-validated">
@@ -23,7 +23,7 @@
             <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="form-group">
-            <label for="name">Name:</label>
+            <label for="name">Email:</label>
             <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required>
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">Please fill out this field.</div>

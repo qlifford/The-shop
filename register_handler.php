@@ -11,10 +11,10 @@ if (isset($_POST["btn_reg"])){
 
     $save = mysqli_query($connection, $insertQuery);
     if (isset($save)){
-        echo "Registration succesful!!!";
+        echo "Registration succesful!";
 
     }else{
-        echo "Registration failed!!!";
+        echo "Registration failed!";
     }
 
 
